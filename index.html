@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="headerText">
+            <p>Full-Stack Developer</p>
+            <h1>Hi, I'm <span>Gursher Singh</span><br>From Kenya</h1>
+        </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+                    <img src="pics/selfie2.png" alt="picture">
+                </div>
+                <div class="about2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am just putting all this here because i have nothing,
+                        better to write and i forgot all my Lorem Ipsum text
+                        tomorrow but lem ger tron to your badi can. Maybe i 
+                        should add some more stuff here you know coz even if 
+                        ones blank bullshiting is a default human behavior
+                        that has eveolved for thousands of years.
+                    </p>
+                    <div class="skills">
+                        <p class="skillLinks activeLink" onclick="opentab('skills')">Skills</p>
+                        <p class="skillLinks" onclick="opentab('education')">Education</p>
+                        <p class="skillLinks" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="skillcontents activeTab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br><br>WebPage & Application DEV</li><br>
+                            <li><span>App Development</span><br><br>IOS & Andriod App Development</li><br>
+                            <li><span>UI/UX Design</span><br><br>Designing Application/Web Interface's</li>
+                        </ul>
+                    </div>
+                    <div class="skillcontents" id="education">
+                        <ul>
+                            <li><span>USIU-Africa</span><br><br>B.sc Applied CS</li><br>
+                            <li><span>Mooringa Schools</span><br><br>DIP Programming</li><br>
+                            <li><span>Nairobi School</span><br><br>The last Millenial</li>
+                        </ul>
+                    </div>
+                    <div class="skillcontents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br><br>WebPage & Application DEV</li><br>
+                            <li><span>App Development</span><br><br>IOS & Andriod App Development</li><br>
+                            <li><span>UI/UX Design</span><br><br>Designing Application/Web Interface's</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="projectList">
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <script>
+
+        var skillLinks = document.getElementsByClassName("skillLinks");
+        var skillcontents = document.getElementsByClassName("skillcontents");
+
+        function opentab(tabname) {
+            for(skillLink of skillLinks) {
+                skillLink.classList.remove("activeLink");
+            }
+            for(skillcontent of skillcontents) {
+                skillcontent.classList.remove("activeTab");
+            }
+            event.currentTarget.classList.add("activeLink");
+            document.getElementById(tabname).classList.add("activeTab");
+
+        }
+
+
+    </script>
+</body>
+</html>
