@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="xtreme.css">
+    <script src="https://kit.fontawesome.com/0d8d7b063e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
-            <h1>My Portfolio</h1>
+            <h1>Portfolio</h1>
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -34,12 +35,9 @@
                 </div>
                 <div class="about2">
                     <h1 class="subtitle">About Me</h1>
-                    <p>I am just putting all this here because i have nothing,
-                        better to write and i forgot all my Lorem Ipsum text
-                        tomorrow but lem ger tron to your badi can. Maybe i 
-                        should add some more stuff here you know coz even if 
-                        ones blank bullshiting is a default human behavior
-                        that has eveolved for thousands of years.
+                    <p>I am a passionate and driven programmer, striving
+                        to better myself day by day and the world at large.
+                        I love Sports and Computer Games.
                     </p>
                     <div class="skills">
                         <p class="skillLinks activeLink" onclick="opentab('skills')">Skills</p>
@@ -48,23 +46,22 @@
                     </div>
                     <div class="skillcontents activeTab" id="skills">
                         <ul>
-                            <li><span>Web Development</span><br><br>WebPage & Application DEV</li><br>
+                            <li><span>Web Development</span><br><br>WebPage & Application Programming</li><br>
                             <li><span>App Development</span><br><br>IOS & Andriod App Development</li><br>
                             <li><span>UI/UX Design</span><br><br>Designing Application/Web Interface's</li>
                         </ul>
                     </div>
                     <div class="skillcontents" id="education">
                         <ul>
-                            <li><span>USIU-Africa</span><br><br>B.sc Applied CS</li><br>
+                            <li><span>USIU-Africa</span><br><br>B.Sc Applied CS</li><br>
                             <li><span>Mooringa Schools</span><br><br>DIP Programming</li><br>
-                            <li><span>Nairobi School</span><br><br>The last Millenial</li>
+                            <li><span>Nairobi School</span><br><br>The Last Millenial</li>
                         </ul>
                     </div>
                     <div class="skillcontents" id="experience">
                         <ul>
-                            <li><span>Web Development</span><br><br>WebPage & Application DEV</li><br>
-                            <li><span>App Development</span><br><br>IOS & Andriod App Development</li><br>
-                            <li><span>UI/UX Design</span><br><br>Designing Application/Web Interface's</li>
+                            <li><span>Deloitte & Touche</span><br><br>Internship</li><br>
+                            <li><span>Google KickStart</span><br><br>Top 100 Placement 2023 Edition</li>
                         </ul>
                     </div>
                 </div>
@@ -74,12 +71,76 @@
     <div id="services">
         <div class="container">
             <h1 class="subtitle">My Services</h1>
-            <div class="projectList">
+            <div class="servicesList">
+                <div>
+                    <img src="pics/typing.jpg" alt="PIC" width = "20 height="">
+                    <h2>Web Design</h2>
+                    <i class="fa-brands fa-squarespace"></i>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="pics/typing2.jpg" width="200px" height="236.5px" alt="PIC">
+                    <h2>PolyMorphic UI's</h2>
+                    <i class="fa-solid fa-globe"></i>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="pics/typing.jpg" width="200px" alt="PIC">
+                    <h2>Web Development</h2>
+                    <i class="fa-solid fa-building"></i>
+                    <a href="#">Learn More</a>
+                </div>
                 
             </div>
         </div>
     </div>
-
+    <div id="projects">
+        <div class="container">
+            <h1 class="projs">My Projects</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="pics/py2.jpeg" alt="Project 4" class="project-image">
+                    <a href="CODE PORTFOLIO/AREA CALCULATOR/area.html" target="_blank" class="view-button">View Project</a>
+                </div>
+                <div class="grid-item">
+                    <img src="pics/prolog.png" alt="Project 1" class="project-image">
+                    <a href="CODE PORTFOLIO/FAMILY TREE/prolog.html" target="_blank" class="view-button">View Project</a>
+                </div>
+                <div class="grid-item">
+                    <img src="pics/c+.jpeg" alt="Project 2" class="project-image">
+                    <a href="CODE PORTFOLIO/GRADES/C++.html " target="_blank" class="view-button">View Project</a>
+                </div>
+                <div class="grid-item">
+                    <img src="pics/html5.jpeg" alt="Project 3" class="project-image">
+                    <a href="CODE PORTFOLIO/LOG IN PAGE/LOG IN PAGE.html" target="_blank" class="view-button">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>gurshersingh100@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+254 711 604 122</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        ,<button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <footer>
