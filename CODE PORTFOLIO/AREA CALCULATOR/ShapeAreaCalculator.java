@@ -2,17 +2,14 @@ import java.util.Scanner;
 
 public class ShapeAreaCalculator {
 
-    // Method to calculate the area of a circle
     public static double circleArea(double radius) {
         return Math.PI * radius * radius;
     }
 
-    // Method to calculate the area of a triangle
     public static double triangleArea(double base, double height) {
         return 0.5 * base * height;
     }
 
-    // Method to calculate the area of a rectangle
     public static double rectArea(double length, double width) {
         return length * width;
     }
