@@ -50,7 +50,6 @@ public class ShapeAreaCalculator {
                 validShape = false;
                 break;
         }
-
         if (validShape) {
             System.out.printf("Area of your %s is: %.2f%n", shape, area);
         }
@@ -58,5 +57,8 @@ public class ShapeAreaCalculator {
         scanner.close();
     }
 }
+
+
+
 
 
