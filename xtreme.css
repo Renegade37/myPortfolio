@@ -378,6 +378,7 @@ form input, form textarea {
     animation: spin 0.5s linear infinite; 
     transform-origin: center; 
     font-size: 3.2rem;
+    cursor: pointer;
 }
 
 @keyframes flip-vertical {
@@ -389,18 +390,19 @@ form input, form textarea {
 .fa-solid.fa-yin-yang {
     font-size: 3rem; 
     display: inline-block;
-    transition: transform 0.5s ease; 
-    transform-style: preserve-3d 
+    transition: transform 0.5s ease;  
 }
 
 .fa-solid.fa-yin-yang:hover {
     animation: spin 2s linear infinite; 
     transform-origin: center; 
     font-size: 4rem;
+    cursor: pointer;
 }
 
 .fa-solid.fa-building:hover {
     font-size: 5rem ;
+    cursor: pointer;
 }
 
 footer {
