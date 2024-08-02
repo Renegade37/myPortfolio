@@ -231,7 +231,7 @@ nav ul li a:hover::after {
 }
 
 .servicesList div:nth-child(2):hover {
-    background: #19594d; 
+    background-color: #004d4d;
     transform: translateY(-15px);
 }
 
