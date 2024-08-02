@@ -241,7 +241,7 @@ nav ul li a:hover::after {
 }
 
 .grid-container {
-    margin: 20px auto; 
+    margin: auto; 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px; 
@@ -269,7 +269,7 @@ nav ul li a:hover::after {
     align-items: center; 
     justify-content: space-evenly;
     padding: 10px; 
-    margin-top: 20px ;
+    margin-top: 40px;
 }
 
 .project-image {
@@ -341,8 +341,8 @@ form input, form textarea {
     outline: none;
     background: #262626;
     padding: 15px 0;
-    margin: 15px 0;
     padding-left: 8px;
+    margin: 15px 0;
     color: #fff;
     font-size: 18px;
     border-radius: 5px;
